@@ -7,14 +7,7 @@ import { FormsModule, NgForm } from '@angular/forms';
   styleUrls: ['./cadastro-pessoa.component.css']
 })
 export class CadastroPessoaComponent implements OnInit {
+  constructor(){}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-  form_submit(f: NgForm){
-    console.log(f.form.controls);
-    console.log('valor do controle nome:' + f.form.controls.nome.value);
-  }
-
+  ngOnInit(){}
 }
